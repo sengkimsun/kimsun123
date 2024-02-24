@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Food Product</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #fff; /* Changed font color to white */
+      font-size: 16px;
+      background-image:url(pinklocalfood.jpg);
+      background-size:cover;
+      max-width:100%;
+
+    }
+
+    header, footer {
+      background-color: #FF6EC7;
+      color: #fff;
+      padding: 20px;
+    }
+
+    main {
+      padding: 20px;
+      background-color: #f535aa; /* Neon pink background color */
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* Navigation Styles */
+    li{
+        width:10px;
+    }
+    nav {
+      background-color: #FF00FF;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+
+    }
+
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+      font-size:30px;
+      font-family:serif;
+
+     
+    }
+
+
+
+    /* Section Styles */
+    #product-info, #product-details {
+      margin-bottom: 30px;
+    }
+
+    #product-image {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .product-card {
+      background-color: #ffc0cb; /* Light pink background color */
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .product-description {
+      margin-top: 20px;
+    }
+
+    .product-description h3 {
+      font-size: 20px;
+      color: #fff; /* Changed font color to white */
+      margin-bottom: 10px;
+    }
+
+    .product-description p {
+      font-size: 16px;
+      color: #fff; /* Changed font color to white */
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 22px;
+      color: #fff; /* Changed font color to white */
+      margin-top: 10px;
+    }
+
+    /* Product Details Styles */
+    #product-details {
+      background-color: #FBA0E3;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    #product-details h2 {
+     
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    #product-details p {
+     
+      color:black;
+      line-height: 1.6;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (min-width: 768px) {
+      main {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      #product-info, #product-details, #product-image {
+        flex: 1;
+        margin-right: 20px;
+       
+
+      }
+      #product-info{
+        font-size:35px;
+      }
+      #product-details{
+        font-size:35px;
+      }
+    }
+    #full{
+       width:100%;
+
+    }
+  </style>
+</head>
+<body>
+    
+  <header>
+    <center><h1 style="font-size: 50px;">Our Local Food Product</h1></center>
+    <nav>
+      <ul>
+        <li style="font-weight: 3px;"><a href="#product-info">Home</a></li>
+        <li style="font-size: 3px;"><a href="#product-image">Products</a></li>
+        <li style="font-size: 3px;"><a href="#product-details">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="product-info">
+      <h2>About Our Product</h2>
+      <p>Our local food product is a culinary treasure crafted with care and passion, reflecting the rich tapestry of flavors and traditions unique to our region. Rooted in a deep appreciation for local ingredients and culinary heritage, each product embodies the essence of our community's vibrant food culture.</p>
+      <p>At the heart of our offerings is a commitment to quality, sustainability, and authenticity. We source the freshest, locally-grown produce, partnering with small-scale farmers who share our dedication to ethical farming practices and environmental stewardship. From sun-ripened fruits to heirloom vegetables and fragrant herbs, every ingredient tells a story of craftsmanship and connection to the land.</p>
+      <p>Our product range is as diverse as the landscapes that inspire it, offering a kaleidoscope of flavors and textures to tantalize the taste buds. Whether you crave the sweet indulgence of artisanal preserves, the fiery kick of handcrafted condiments, or the comforting warmth of homemade baked goods, our selection has something to delight every palate.One of our signature offerings is our line of fruit preserves, meticulously crafted in small batches to preserve the natural essence of each fruit. From luscious strawberry jams bursting with summer sweetness to tangy citrus marmalades infused with the bright flavors of sun-kissed oranges and lemons, each jar is a testament to the art of preserving and the bounty of the seasons.</p>
+      <p>As we continue to grow and evolve, our mission remains the same: to celebrate the flavors of our region, honor the artisans who produce them, and inspire a deeper connection to the food we eat and the land that sustains us. Join us on this delicious journey as we explore the boundless possibilities of local food and the endless joys of sharing it with others.</p>
+    </section>
+    
+    <section id="product-image">
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Delicious and Nutritious.jpg" alt="Local Food Product 1">
+        <div class="product-description">
+          <h3>Delicious and Nutritious</h3>
+          <p>Our flagship product, packed with flavor and essential nutrients to fuel your day.</p>
+          <p class="product-price">$9.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Farm-Fresh Produce.jpg" alt="Local Food Product 2">
+        <div class="product-description">
+          <h3>Farm-Fresh Produce</h3>
+          <p>Locally grown fruits and vegetables, harvested at peak ripeness for maximum flavor.</p>
+          <p class="product-price">$7.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Organic Fruit Jam.jpg" alt="Local Food Product 3">
+        <div class="product-description">
+          <h3>Organic Fruit Jam</h3>
+          <p>Handcrafted from locally grown fruits, bursting with natural sweetness.</p>
+          <p class="product-price">$5.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Farm-Fresh Eggs.jpg" alt="Local Food Product 4">
+        <div class="product-description">
+          <h3>Farm-Fresh Eggs</h3>
+          <p>Locally produced eggs from free-range chickens, rich in flavor and nutrients.</p>
+          <p class="product-price">$4.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Cheese.jpg" alt="Local Food Product 5">
+        <div class="product-description">
+          <h3>Cheese</h3>
+          <p>Handcrafted cheese made from the finest milk sourced from local dairy farms.</p>
+          <p class="product-price">$10.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Homemade Pasta.jpg" alt="Local Food Product 6">
+        <div class="product-description">
+          <h3>Homemade Pasta</h3>
+          <p>Traditional pasta made with locally milled flour, perfect for Italian cuisine lovers.</p>
+          <p class="product-price">$12.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Artisan Bread.jpg" alt="Local Food Product 7">
+        <div class="product-description">
+          <h3>Artisan Bread</h3>
+          <p>Freshly baked bread using ancient techniques and locally sourced grains.</p>
+          <p class="product-price">$6.49</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Handcrafted Chocolates.jpg" alt="Local Food Product 8">
+        <div class="product-description">
+          <h3>Handcrafted Chocolates</h3>
+          <p>Indulge in premium chocolates made from ethically sourced cacao beans.</p>
+          <p class="product-price">$14.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Freshly Squeezed Juice.jpg" alt="Local Food Product 9">
+        <div class="product-description">
+          <h3>Freshly Squeezed Juice</h3>
+          <p>Enjoy the refreshing taste of locally grown fruits in every sip.</p>
+          <p class="product-price">$3.99</p>
+        </div>
+      </div>
+      <div class="product-card" style="background-color: #FF6FFF;">
+        <img src="Handcrafted Pastries.jpg" alt="Local Food Product 10">
+        <div class="product-description">
+          <h3>Handcrafted Pastries</h3>
+          <p>Delicate pastries made with love and care by our skilled bakers.</p>
+          <p class="product-price">$8.99</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="product-details">
+      <h2>Product Details</h2>
+      <p>Our Local Delight is a versatile product that can be used in a variety of dishes. It is made from organic vegetables, locally-sourced meats, and a secret blend of spices that gives it a unique flavor profile.</p>
+      <p>Each package of Local Delight is priced at $9.99 and is available year-round. Whether you're cooking for a family dinner or hosting a party, Local Delight is the perfect choice to add a burst of flavor to your dishes.</p>
+      <p>Our product is produced in small batches to ensure the highest quality and freshness. We take pride in supporting local farmers and producers, and we believe that our commitment to using locally-sourced ingredients sets us apart.</p>
+      <p>Local Delight is not only delicious but also nutritious. It is low in calories and fat, making it a healthy choice for any meal. Plus, it's packed with essential nutrients like vitamins and minerals to fuel your body and keep you feeling great.</p>
+      <p>Whether you're a seasoned chef or a novice cook, Local Delight is sure to become a staple in your kitchen. Try it today and taste the difference!</p>
+    </section>
+  </main>
+
+  <footer style="background-color: #333; color: #fff;">
+    <p>Contact us at <a href="mailto:info@localfood.com" style="color: #fff;">info@localfood.com</a></p>
+  </footer>
+</body>
+</html>
